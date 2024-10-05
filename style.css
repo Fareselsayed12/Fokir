@@ -1,0 +1,488 @@
+body{
+   
+    margin: 0;
+   
+}
+.big-con{
+    background-image: url(img/bg\ img.jpeg) ;
+    height: 100vh;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.hero-sec{
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    height: 100vh;
+position: relative;
+
+}
+
+
+
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+}
+.logo{
+    background-color:  bl ue;
+    float: left;
+   
+}
+.logo h2{
+ margin: 0;
+ color: #ff305b;
+
+}
+.container ul{
+    background-color: y ellow;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+
+}
+.container ul li{
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+ul a:hover{
+    color: #ff305b;
+}
+
+.clear-fix{
+    clear: both;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+   margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.color{
+    color:#ff305b ;
+}
+.tex-cen{
+    text-align: center;
+}
+.hero-content{
+    z-index: 2;
+    color: white;
+    
+}
+.hero-content h1{
+    font-size: 38px;
+    color: #ff305b;
+}
+.hero-content h3{
+    font-size: 22px;
+}
+.hero-content h4{
+    font-size: 18px;
+  overflow: hidden;
+  
+}
+.hero-content h4 span{
+    position: relative;
+    animation-name: ex;
+    animation-duration: 2s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.hero-content h4 span::after {
+    position: absolute;
+    content: "" ;
+    background-color: #ff305b;
+    width: 4px;
+
+    top: 0;
+height: 100%;
+right: 0;
+
+    
+}
+@keyframes ex{
+    0%   { left:0px; top:0px;}
+    25%  { left:100px; top:0px;}
+  
+
+}
+
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.discription {
+    background-color: yel low;
+    width: 40%;
+    float: right;
+    margin: 5%;
+    font-size: 20px;
+    
+}
+.discription h2{
+  
+    font-size: 34px;
+}
+
+.profile{
+    width: 30%;
+    border: 10px solid black ;
+    border-radius: 12px;
+    background-color: r ed;
+    float: left;
+    margin: 5%;
+    position: absolute;
+   
+}
+.profile img{
+    width: 100%;
+    position: relative;
+    top:40px ;
+   left: 40px;
+   border-radius: 12px;
+ 
+  
+}
+.img .layer{
+background-color: rgb(0, 0, 0,0.9);
+position: absolute;
+inset: 40px 0 0 40px;
+opacity: 0;
+width: 100%;
+height: 100%;
+transition: 2s;
+}
+
+.img:hover .layer{
+    opacity: 1; 
+    transform: translateY(100%);
+}
+
+.ul-style{
+    list-style: none;
+margin: 0;
+float: left;
+padding-left: 0;
+}
+.ul-style li{
+padding-top : 5px;
+padding-bottom : 5px;
+
+}
+
+.ul-style2{
+    list-style: none;
+margin: 0;
+float: right;
+}
+.ul-style2 li{
+    padding-top : 5px;
+padding-bottom : 5px;
+
+    }
+    .discription .button a{
+        color: white;
+        background-color: #ff305b;  
+        padding: 3px 6px;  
+        margin: 0 8px 0 0;
+        border-radius: 5px;
+     }
+     .button{
+        margin: 10px 0;
+     }
+hr{
+    border: none;
+  border-top: 1px dotted #ff305b;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+.p-opc{
+    opacity: 0.8;
+}
+
+
+.discription h2{
+ position: relative;
+ background-color: y ellow;
+ padding: 0 0 0 13px;
+ margin: 0 0 25px;
+
+}
+.discription h2::before{
+    content: "" ;
+    background-color: #ff305b;
+    width: 4px;
+    position: absolute;
+    top: 0;
+height: 100%;
+left: 0;
+   
+}
+.container3
+{
+    background-color: #F1F1F1;
+    margin-top: 100px;
+}
+.sec3-Title{
+    text-align: center;
+    padding: 10px;
+    
+}
+.sec3-content{
+    background-color:#F1F1F1;
+
+    
+}
+.sec3-Title h2{
+    font-size: 40px;
+    
+}
+.ui{
+    width: 20%;
+    background-color:  re d;
+    text-align: center;
+    float: right;
+    margin: 32px;
+}
+.ui:hover{
+    background-color:white;
+}
+.ui:hover img{
+    
+    transform: scale(1.1);
+}
+
+.APP-DEVELOPMENT{
+    width: 20%;
+    background-color: r ed;
+    text-align: center;
+    float: right;
+    margin: 32;
+}
+.APP-DEVELOPMENT:hover{
+    background-color:white;
+}
+.APP-DEVELOPMENT:hover img{
+    transform: scale(1.1);}
+
+
+.PRODUCT-DESIGN{
+    width: 20%;
+    background-color: r ed;
+    text-align: center;
+    float: right;
+    margin: 32;
+}
+.PRODUCT-DESIGN:hover{
+    background-color:white;
+}
+.PRODUCT-DESIGN:hover img{
+    transform: scale(1.1);}
+
+.UX{
+    width: 20%;
+    background-color: re d;
+    text-align: center;
+    float: right;
+    margin: 32;
+}
+.UX:hover{
+    background-color:white;
+}
+.UX:hover img{
+    transform: scale(1.1);}
+
+.container4{
+    background-color: t omato;
+}
+.sec4-title{
+    background-color:  aqu a;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.sec4-title h2{
+ margin: 0;
+}
+
+.ancor{
+    background-color: char treuse;
+    text-align: center;
+}
+.ancor a{
+  color: black;
+   margin: 20px;
+}
+.w-20{
+    width: 25%;
+    padding: 20px;
+    margin-left: 50px;
+    opacity: 1;
+    height: auto;
+}
+.img-gallry:hover .w-20{
+    opacity: 0.7;
+  }
+
+.img-gallry{
+    margin: 50px;
+}
+.container5{
+    background-color: #F1F1F1;
+}
+.sec5-icon{
+    background-color: transparent;
+    width: 10%;
+    text-align: center;
+    float: right;
+    margin: 40px;
+    padding: 50px;
+}
+.sec5-icon img{
+    width: 40%;
+}
+.section6{
+    background-color: gr een;
+}
+.container6{
+    background-color: yell ow;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container6 h2{
+    text-align: center;
+    font-size: 40px;
+}
+.card{
+    background-color:#F1F1F1;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.corner{
+    width: 0;
+    height: 0;
+    border-top: red solid 70px;
+    border-left: red solid 70px;
+    border-right: transparent solid  70px;
+    border-bottom: transparent solid 70px;
+    border-radius: 15px 0 0 0;
+position: absolute;
+top: 0;
+left: 0;
+}
+.imgfedback img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top :30px ;
+    left: 30px;
+    z-index: 99;
+}
+.contsec6 a{
+    text-align: center;
+    color: black;
+}
+.container7{
+    background-color: #F1F1F1;
+ padding: 40px;
+    margin-bottom: 50px;
+}
+.container7 h2{
+    font-size: 35px;
+text-align: center;
+}
+.part1{
+    background-color: white;
+    width: 30%;
+    float: right;
+    margin: 20px;
+}
+.part1 img{
+    width: 100%;
+}
+.part1 a{
+    color: #ff305b;
+    font-size: 30px;
+}
+.part1 span{
+    font-size: 20px;
+}
+.part1 iframe{
+ 
+width: 100%;   
+}
+.container8{
+    text-align: center;
+    margin: 50px;
+}
+ input {
+    width: 30%;
+   padding: 8px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.sub{
+    width: 60%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container8 button{
+    padding: 10px;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 5px;
+}
+.section9{
+    background-color: #333333;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.section9 .icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
